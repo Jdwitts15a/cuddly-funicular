@@ -30,3 +30,10 @@ ggplot(mydata, aes(x, y))+
 # Octopus running away!
 
 ![](https://media.giphy.com/media/7jL6itlgfMRWLenU4x/giphy.gif?cid=ecf05e47ochnv0utb8fjv4vrelb22gdkd01cjhysy8ncgph0&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
+```{r}
+mydata<-data.frame(x=1:10, y=1:10)
+
+ggplot(mydata, aes(x, y))+ 
+  geom_point(shape = "square", colour = "royalblue3")+ theme_minimal()
+```
